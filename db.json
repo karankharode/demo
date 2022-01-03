@@ -1,5 +1,5 @@
 {
-  "users": [
+  "user_login": [
     {
       "_id": {
     "$oid" : "qwertyuiopasdfghjkzxcvbn6523rdev"
@@ -7,41 +7,16 @@
      "username": "Karan",
     "password" : "MyPass",
       "__v":0
-    },
-    {
-      "_id": {
-    "$oid" : "qwygfhsvbd3uhc834sdhjkz6523rdev"
-    },
-     "username": "Ranushah",
-    "password" : "RanushasPass",
-      "__v":0
     }
+   
   ],
-  "transactions": [
+  "transaction_success": [
     { 
       "_id": "A113461",
        "service": "mysopay",
        "timestamp": "2022/01/05 14:11:11",
        "amount": 209.6,
        "status": "SUCCESS",
-      "__v" : 0
-      
-       },
-    { 
-      "_id": "A113462",
-       "service": "mysopay",
-       "timestamp": "2022/01/03 14:11:11",
-       "amount": 609.6,
-       "status": "SUCCESS",
-      "__v" : 0
-      
-       },
-    { 
-      "_id": "A113463",
-       "service": "mysopay",
-       "timestamp": "2022/01/04 14:11:11",
-       "amount": 100.0,
-       "status": "FAILURE",
       "__v" : 0
       
        }
